@@ -15,4 +15,4 @@ COPY . /app/
 
 EXPOSE 9500
 
-CMD ["python", "RA", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "DGT", "manage.py", "runserver", "0.0.0.0:8000"]
