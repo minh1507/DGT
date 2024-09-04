@@ -70,3 +70,4 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:3501
 WARNING 2024-09-04 14:54:22,482 log Bad Request: /favicon.ico
 INFO 2024-09-04 14:54:42,448 autoreload D:\study\DGT\DGT\DGT\urls.py changed, reloading.
 INFO 2024-09-04 14:54:50,171 autoreload Watching for file changes with StatReloader
+INFO 2024-09-04 18:57:16,850 autoreload Watching for file changes with StatReloader
