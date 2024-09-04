@@ -1,0 +1,72 @@
+INFO 2024-09-04 07:55:26,570 autoreload Watching for file changes with StatReloader
+INFO 2024-09-04 14:25:22,712 autoreload Watching for file changes with StatReloader
+INFO 2024-09-04 14:28:08,716 autoreload Watching for file changes with StatReloader
+INFO 2024-09-04 14:29:45,637 autoreload Watching for file changes with StatReloader
+INFO 2024-09-04 14:35:00,894 autoreload D:\study\DGT\DGT\DGT\settings.py changed, reloading.
+INFO 2024-09-04 14:35:02,294 autoreload Watching for file changes with StatReloader
+INFO 2024-09-04 14:35:11,984 autoreload Watching for file changes with StatReloader
+INFO 2024-09-04 14:53:20,748 autoreload Watching for file changes with StatReloader
+INFO 2024-09-04 14:53:51,128 autoreload D:\study\DGT\DGT\DGT\wsgi.py changed, reloading.
+INFO 2024-09-04 14:53:58,415 autoreload Watching for file changes with StatReloader
+ERROR 2024-09-04 14:54:19,416 exception Invalid HTTP_HOST header: '127.0.0.1:3501'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:3501'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-09-04 14:54:19,564 log Bad Request: /
+ERROR 2024-09-04 14:54:19,696 exception Invalid HTTP_HOST header: '127.0.0.1:3501'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:3501'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-09-04 14:54:19,721 log Bad Request: /favicon.ico
+ERROR 2024-09-04 14:54:22,374 exception Invalid HTTP_HOST header: '127.0.0.1:3501'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:3501'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-09-04 14:54:22,398 log Bad Request: /apis
+ERROR 2024-09-04 14:54:22,459 exception Invalid HTTP_HOST header: '127.0.0.1:3501'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anhdd6\.virtualenvs\DGT-4UV24q27\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:3501'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-09-04 14:54:22,482 log Bad Request: /favicon.ico
+INFO 2024-09-04 14:54:42,448 autoreload D:\study\DGT\DGT\DGT\urls.py changed, reloading.
+INFO 2024-09-04 14:54:50,171 autoreload Watching for file changes with StatReloader

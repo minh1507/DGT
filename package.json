@@ -1,0 +1,15 @@
+{
+  "name": "dgt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "python DGT/manage.py runserver",
+    "env": "pipenv shell",
+    "download": "pipenv install",
+    "attach": "pipenv requirements > requirements.txt",
+    "seed": "python DGT/manage.py seed_run"
+  },
+  "author": "",
+  "license": "ISC"
+}
