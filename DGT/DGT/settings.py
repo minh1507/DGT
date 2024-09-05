@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-vt2o12r8fl46bh_a#9v#@&@6fgqo7)$2&l@@!xe5@_*va_yek*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["redy.site", "localhost"]
+ALLOWED_HOSTS = ["redy.site", "localhost", "222.255.1.152"]
 
 
 # Application definition
